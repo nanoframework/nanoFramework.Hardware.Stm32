@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup>
+    <GitVersion_NuGetVersionV2 Condition=" '$(GitVersion_NuGetVersionV2)' == '' ">1.0.0-preview001</GitVersion_NuGetVersionV2>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="..\nanoFramework.Hardware.Stm32\bin\$(Configuration)\nanoFramework.Hardware.Stm32.dll">
+      <Link>lib\nanoFramework.Hardware.Stm32.dll</Link>
+    </Content>
+    <Content Include="..\nanoFramework.Hardware.Stm32\bin\$(Configuration)\nanoFramework.Hardware.Stm32.pdb">
+      <Link>lib\nanoFramework.Hardware.Stm32.pdb</Link>
+    </Content>
+    <Content Include="..\nanoFramework.Hardware.Stm32\bin\$(Configuration)\nanoFramework.Hardware.Stm32.pdbx">
+      <Link>lib\nanoFramework.Hardware.Stm32.pdbx</Link>
+    </Content>
+    <Content Include="..\nanoFramework.Hardware.Stm32\bin\$(Configuration)\nanoFramework.Hardware.Stm32.pe">
+      <Link>lib\nanoFramework.Hardware.Stm32.pe</Link>
+    </Content>
+    <Content Include="..\nanoFramework.Hardware.Stm32\bin\$(Configuration)\nanoFramework.Hardware.Stm32.xml">
+      <Link>lib\nanoFramework.Hardware.Stm32.xml</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="lib\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Dependency Include="nanoFramework.CoreLibrary">
+      <Version>[1.0.4]</Version>
+    </Dependency>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>6a51d51b-7fbe-42e4-a08a-c80d2f65c622</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NuProjPath>..\packages\NuProj.0.20.4-beta\tools\</NuProjPath>
+  </PropertyGroup>  
+  <PropertyGroup>
+    <NuProjPath Condition=" '$(NuProjPath)' == '' ">$(MSBuildExtensionsPath)\NuProj\</NuProjPath>
+  </PropertyGroup>
+  <Import Project="$(NuProjPath)\NuProj.props" Condition="Exists('$(NuProjPath)\NuProj.props')" />
+  <PropertyGroup Label="Configuration">
+    <Id>nanoFramework.Hardware.Stm32</Id>
+    <Version>$(GitVersion_NuGetVersionV2)</Version>
+    <Title>nanoFramework.Hardware.Stm32</Title>
+    <Authors>nanoFramework project contributors</Authors>
+    <Owners>nanoFramework project contributors</Owners>
+    <Summary>nanoFramework.Hardware.Stm32 assembly for nanoFramework C# projects</Summary>
+    <Description>This package includes the nanoFramework.Hardware.Stm32 assembly for nanoFramework C# projects</Description>
+    <ReleaseNotes>
+    </ReleaseNotes>
+    <ProjectUrl>https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32</ProjectUrl>
+    <LicenseUrl>
+    </LicenseUrl>
+    <Copyright>Copyright (c) 2018 The nanoFramework project contributors</Copyright>
+    <Tags>nanoFramework C# csharp netmf netnf nanoFramework.Hardware.Stm32</Tags>
+    <IconUrl>https://secure.gravatar.com/avatar/97d0e092247f0716db6d4b47b7d1d1ad</IconUrl>
+    <GenerateSymbolPackage>false</GenerateSymbolPackage>
+  </PropertyGroup>
+  <Import Project="$(NuProjPath)\NuProj.targets" />
+</Project>
