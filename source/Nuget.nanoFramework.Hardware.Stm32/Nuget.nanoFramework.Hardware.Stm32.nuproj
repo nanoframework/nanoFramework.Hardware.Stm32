@@ -35,7 +35,7 @@
   </ItemGroup>
   <ItemGroup>
     <Dependency Include="nanoFramework.CoreLibrary">
-      <Version>[1.0.4]</Version>
+      <Version>[1.0.5-preview024]</Version>
     </Dependency>
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -43,7 +43,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <NuProjPath>..\packages\NuProj.0.20.4-beta\tools\</NuProjPath>
-  </PropertyGroup>  
+  </PropertyGroup>
   <PropertyGroup>
     <NuProjPath Condition=" '$(NuProjPath)' == '' ">$(MSBuildExtensionsPath)\NuProj\</NuProjPath>
   </PropertyGroup>
