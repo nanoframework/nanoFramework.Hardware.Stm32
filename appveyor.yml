@@ -21,6 +21,7 @@ build:
   verbosity: minimal
 
 environment:
+  APPVEYOR_IGNORE_COMMIT_FILTERING_ON_TAG: true
   APPVEYOR_SAVE_CACHE_ON_ERROR: true
   matrix:
     - RUBY_VERSION: 24
