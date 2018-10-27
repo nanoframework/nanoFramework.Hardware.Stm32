@@ -4,6 +4,7 @@
 
 **Documentation and other chores:**
 
+- Work on CD/CI [\#2](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/2)
 - Bumps nanoFramework.CoreLibrary from 1.0.4 to 1.0.5-preview024 [\#1](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/1)
 
 
