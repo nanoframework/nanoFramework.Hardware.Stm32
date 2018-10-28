@@ -5,6 +5,7 @@
 
 **Documentation and other chores:**
 
+- Merge from 'develop' for Release 1.0.0 [\#4](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/4)
 - Merge from 'develop' for Release 1.0.0 [\#3](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/3)
 
 ## [v1.0.0-preview002](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.0-preview002) (2018-10-27)
