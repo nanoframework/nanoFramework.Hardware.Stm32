@@ -48,8 +48,10 @@ install:
   - bundle config --local path vendor/bundle
   - gem install bundler --quiet --no-ri --no-rdoc
   - gem install github_changelog_generator --quiet --no-ri --no-rdoc
+  - appveyor-retry
+  - choco install gitversion.portable -y
   # this needs to be replace with the official version and nuget package as soon as it's released
-  - dotnet tool install -g --version 4.0.0-pullrequest1422-1625 --add-source https://ci.appveyor.com/nuget/gitversion-8nigugxjftrw GitVersion.CommandLine.DotNetCore.Tool
+  #- dotnet tool install -g --version 4.0.0-pullrequest1422-1625 --add-source https://ci.appveyor.com/nuget/gitversion-8nigugxjftrw GitVersion.CommandLine.DotNetCore.Tool
   - ps: .\install-vsix-appveyor.ps1
 
 before_build:
@@ -59,7 +61,7 @@ before_build:
 
     nuget restore source\nanoFramework.Hardware.Stm32.sln
 
-    dotnet-gitversion /l console /output buildserver /updateAssemblyInfo "source\nanoFramework.Hardware.Stm32\Properties\AssemblyInfo.cs"
+    C:\ProgramData\chocolatey\lib\GitVersion.Portable\tools\GitVersion.exe /l console /output buildserver /updateAssemblyInfo "source\nanoFramework.Hardware.Stm32\Properties\AssemblyInfo.cs"
 
 build_script:
 - ps: >-
