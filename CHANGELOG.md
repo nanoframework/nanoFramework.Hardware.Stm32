@@ -1,8 +1,7 @@
 # Change Log
 
-## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/HEAD)
-
-[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.2-preview-001...HEAD)
+## [v1.0.2-preview-004](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.2-preview-004) (2018-11-08)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.2-preview-001...v1.0.2-preview-004)
 
 **Documentation and other chores:**
 
