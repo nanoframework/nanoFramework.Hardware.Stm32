@@ -1,5 +1,12 @@
 # Change Log
 
+## [v1.0.2-preview-014](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.2-preview-014) (2018-11-26)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.2-preview-010...v1.0.2-preview-014)
+
+**Fixed bugs:**
+
+- Remove static constructor [\#8](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/8)
+
 ## [v1.0.2-preview-010](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.2-preview-010) (2018-11-19)
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.2-preview-008...v1.0.2-preview-010)
 
