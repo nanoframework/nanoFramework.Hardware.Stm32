@@ -45,7 +45,9 @@ steps:
 
 # step from template @ nf-tools repo
 # all build, update and publish steps
-- template: azure-pipelines-templates/class-lib-build.yml@templates  
+- template: azure-pipelines-templates/class-lib-build.yml@templates
+  parameters:
+    sourceFileName: 'nf_hardware_stm32_native.cpp'
 
 # step from template @ nf-tools repo
 # report error
