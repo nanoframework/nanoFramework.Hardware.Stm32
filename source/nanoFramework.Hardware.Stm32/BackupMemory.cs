@@ -14,17 +14,23 @@ namespace nanoFramework.Hardware.Stm32
     /// </summary>
     public static class BackupMemory
     {
-        private static readonly int _size;
-
-        static BackupMemory()
-        {
-            _size = GetSize();
-        }
+        private static int _size = 0;
 
         /// <summary>
         /// Gets the size of the backup memory on the current target.
         /// </summary>
-        public static int Size => _size;
+        public static int Size
+        {
+            get
+            {
+                if(_size == 0)
+                {
+                    _size = GetSize();
+                }
+
+                return _size;
+            }
+        }
 
         #region Write methods
 
