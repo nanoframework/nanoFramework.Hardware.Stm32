@@ -39,7 +39,7 @@ namespace nanoFramework.Hardware.Stm32
         public static DateTime GetAlarm()
         {
             long alarmTicks = Native_RTC_GetAlarm();
-            return new DateTime(alarmTicks, DateTimeKind.Utc);
+            return new DateTime(alarmTicks);
         }
 
         #region native methods calls
