@@ -26,9 +26,10 @@ namespace nanoFramework.Hardware.Stm32
             Native_RTC_SetAlarm((byte)time.Day, (byte)time.Hour, (byte)time.Minute, (byte)time.Second);
         }
 
+        #region native methods calls
+
         /// <summary>
-        /// Gets the <see cref="DateTime"/> set in alarm.
-        /// This will wake-up the target device if it's in sleep or power down mode.
+        /// Gets the <see cref="DateTime"/> set for the alarm.
         /// </summary>
         /// <returns>
         /// Return the current <see cref="DateTime"/> set for the alarm.
@@ -36,19 +37,11 @@ namespace nanoFramework.Hardware.Stm32
         /// <remarks>
         /// If target device has more than one alarm. This is the value of Alarm A.
         /// </remarks>
-        public static DateTime GetAlarm()
-        {
-            long alarmTicks = Native_RTC_GetAlarm();
-            return new DateTime(alarmTicks);
-        }
-
-        #region native methods calls
+        [MethodImpl(MethodImplOptions.InternalCall)]
+        public static extern DateTime GetAlarm();
 
         [MethodImpl(MethodImplOptions.InternalCall)]
         private static extern void Native_RTC_SetAlarm(byte day, byte hours, byte minutes, byte seconds);
-
-        [MethodImpl(MethodImplOptions.InternalCall)]
-        private static extern long Native_RTC_GetAlarm();
 
         #endregion
 
