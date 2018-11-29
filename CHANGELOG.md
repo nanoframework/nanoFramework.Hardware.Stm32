@@ -1,5 +1,12 @@
 # Change Log
 
+## [v1.0.2-preview-021](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.2-preview-021) (2018-11-29)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.2-preview-019...v1.0.2-preview-021)
+
+**Implemented enhancements:**
+
+- Improvements in GetAlarm\(\) [\#10](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/10)
+
 ## [v1.0.2-preview-019](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.2-preview-019) (2018-11-28)
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.2-preview-017...v1.0.2-preview-019)
 
