@@ -12,8 +12,8 @@
 
 | Component | Build Status | NuGet Package |
 |:-|---|---|
-| nanoFramework.Hardware.Stm32 | [![Build status](https://ci.appveyor.com/api/projects/status/u52y4iraqq0j22mb/branch/master?svg=true)](https://ci.appveyor.com/project/nfbot/lib-nanoframework-hardware-stm32/branch/master) | [![NuGet](https://img.shields.io/nuget/vpre/nanoFramework.Hardware.Stm32.svg)](https://www.nuget.org/packages/nanoFramework.Hardware.Stm32/)  |
-| nanoFramework.Hardware.Stm32 (preview) | [![Build status](https://ci.appveyor.com/api/projects/status/u52y4iraqq0j22mb/branch/develop?svg=true)](https://ci.appveyor.com/project/nfbot/lib-nanoframework-hardware-stm32/branch/develop) | [![MyGet Pre Release](https://img.shields.io/myget/nanoframework-dev/vpre/nanoFramework.Hardware.Stm32.svg)](https://www.myget.org/feed/nanoframework-dev/package/nuget/nanoFramework.Hardware.Stm32) |
+| nanoFramework.Hardware.Stm32 | [![Build status](https://ci.appveyor.com/api/projects/status/u52y4iraqq0j22mb/branch/master?svg=true)](https://ci.appveyor.com/project/nfbot/lib-nanoframework-hardware-stm32/branch/master) | [![NuGet](https://img.shields.io/nuget/v/nanoFramework.Hardware.Stm32.svg)](https://www.nuget.org/packages/nanoFramework.Hardware.Stm32/)  |
+| nanoFramework.Hardware.Stm32 (preview) | [![Build Status](https://dev.azure.com/nanoframework/nanoFramework.Hardware.Stm32/_apis/build/status/nanoframework.lib-nanoFramework.Hardware.Stm32)](https://dev.azure.com/nanoframework/nanoFramework.Hardware.Stm32/_build/latest?definitionId=6) | [![MyGet Pre Release](https://img.shields.io/myget/nanoframework-dev/vpre/nanoFramework.Hardware.Stm32.svg)](https://www.myget.org/feed/nanoframework-dev/package/nuget/nanoFramework.Hardware.Stm32) |
 
 
 ## Feedback and documentation
