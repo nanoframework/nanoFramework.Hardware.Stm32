@@ -1,10 +1,19 @@
 # Change Log
 
-## [v1.0.2-preview-026](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.2-preview-026) (2018-12-14)
-[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.2-preview-024...v1.0.2-preview-026)
+## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/HEAD)
+
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.2...HEAD)
 
 **Documentation and other chores:**
 
+- Merge back from Release v1.0.2 [\#15](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/15)
+
+## [v1.0.2](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.2) (2018-12-15)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.2-preview-024...v1.0.2)
+
+**Documentation and other chores:**
+
+- Release v1.0.2 [\#14](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/14)
 - Bumps nanoFramework.CoreLibrary from 1.0.6-preview-021 to 1.1.0 [\#13](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/13)
 
 ## [v1.0.2-preview-024](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.2-preview-024) (2018-11-30)
@@ -69,14 +78,6 @@
 
 ## [v1.0.1-preview003](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.1-preview003) (2018-10-31)
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.0...v1.0.1-preview003)
-
-## [v1.0.0](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.0) (2018-10-28)
-[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.0-preview002...v1.0.0)
-
-**Documentation and other chores:**
-
-- Merge from 'develop' for Release 1.0.0 [\#4](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/4)
-- Merge from 'develop' for Release 1.0.0 [\#3](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/3)
 
 ## [v1.0.0](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.0) (2018-10-28)
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.0-preview002...v1.0.0)
