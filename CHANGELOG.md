@@ -4,6 +4,10 @@
 
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.2...HEAD)
 
+**Implemented enhancements:**
+
+- Add Power class to manage target power mode [\#16](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/16)
+
 **Documentation and other chores:**
 
 - Merge back from Release v1.0.2 [\#15](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/15)
