@@ -2,7 +2,14 @@
 
 ## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/HEAD)
 
-[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.3-preview-003...HEAD)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.3-preview-005...HEAD)
+
+**Implemented enhancements:**
+
+- Add WakeupReason [\#18](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/18)
+
+## [v1.0.3-preview-005](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.3-preview-005) (2019-01-02)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.3-preview-003...v1.0.3-preview-005)
 
 **Implemented enhancements:**
 
