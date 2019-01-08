@@ -20,6 +20,15 @@ namespace nanoFramework.Hardware.Stm32
         #region native methods calls
 
         /// <summary>
+        /// Gets the reason for device wakeup.
+        /// </summary>
+        public static extern WakeupReasonType WakeupReason
+        {
+            [MethodImpl(MethodImplOptions.InternalCall)]
+            get;
+        }
+
+        /// <summary>
         /// Disables the specified <paramref name="pin"/> as wake-up source.
         /// </summary>
         /// <remarks>
@@ -40,7 +49,7 @@ namespace nanoFramework.Hardware.Stm32
         public static extern void EnableWakeupPin(WakeupPin pin = WakeupPin.Pin1);
 
         /// <summary>
-        /// Sets the target device to enter SMT32 "standby" mode.
+        /// Sets the target device to enter STM32 "standby" mode.
         /// </summary>
         [MethodImpl(MethodImplOptions.InternalCall)]
         public static extern void EnterStandbyMode();
