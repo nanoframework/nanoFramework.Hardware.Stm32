@@ -8,6 +8,10 @@
 
 - Rework EnterStandbyMode\(\) [\#19](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/19)
 
+**Documentation and other chores:**
+
+- Bumps nanoFramework.CoreLibrary from 1.1.0 to 1.1.1 [\#20](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/20)
+
 ## [v1.0.3-preview-007](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.3-preview-007) (2019-01-08)
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.3-preview-005...v1.0.3-preview-007)
 
