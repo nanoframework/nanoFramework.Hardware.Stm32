@@ -1,10 +1,48 @@
 # Change Log
 
-## [v1.0.2-preview-026](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.2-preview-026) (2018-12-14)
-[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.2-preview-024...v1.0.2-preview-026)
+## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/HEAD)
+
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.3-preview-007...HEAD)
+
+**Fixed bugs:**
+
+- Rework EnterStandbyMode\(\) [\#19](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/19)
 
 **Documentation and other chores:**
 
+- Bumps nanoFramework.CoreLibrary from 1.1.0 to 1.1.1 [\#20](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/20)
+
+## [v1.0.3-preview-007](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.3-preview-007) (2019-01-08)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.3-preview-005...v1.0.3-preview-007)
+
+**Implemented enhancements:**
+
+- Add WakeupReason [\#18](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/18)
+
+## [v1.0.3-preview-005](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.3-preview-005) (2019-01-02)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.3-preview-003...v1.0.3-preview-005)
+
+**Implemented enhancements:**
+
+- Add methods to enable/disable wake-up from pin [\#17](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/17)
+
+## [v1.0.3-preview-003](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.3-preview-003) (2018-12-21)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.2...v1.0.3-preview-003)
+
+**Implemented enhancements:**
+
+- Add Power class to manage target power mode [\#16](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/16)
+
+**Documentation and other chores:**
+
+- Merge back from Release v1.0.2 [\#15](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/15)
+
+## [v1.0.2](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.2) (2018-12-15)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.2-preview-024...v1.0.2)
+
+**Documentation and other chores:**
+
+- Release v1.0.2 [\#14](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/14)
 - Bumps nanoFramework.CoreLibrary from 1.0.6-preview-021 to 1.1.0 [\#13](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/13)
 
 ## [v1.0.2-preview-024](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.2-preview-024) (2018-11-30)
