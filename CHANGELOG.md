@@ -2,7 +2,14 @@
 
 ## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/HEAD)
 
-[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.3-preview-005...HEAD)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.3-preview-007...HEAD)
+
+**Fixed bugs:**
+
+- Rework EnterStandbyMode\(\) [\#19](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/19)
+
+## [v1.0.3-preview-007](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.3-preview-007) (2019-01-08)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.3-preview-005...v1.0.3-preview-007)
 
 **Implemented enhancements:**
 
