@@ -16,6 +16,22 @@ namespace nanoFramework.Hardware.Stm32
     /// </remarks>
     public static partial class Power
     {
+        /// <summary>
+        /// Sets the target device to enter STM32 "standby" mode.
+        /// </summary>
+        /// <remarks>
+        /// If no wakeup sources configured then it will be a indefinite sleep.
+        /// This call never returns.
+        /// After the device enters standby a wakeup source will wake the device and the execution will start as if it was a reset.
+        /// Keep in mind that the execution WILL NOT continue after the call to this method.
+        /// </remarks>
+        public static void EnterStandbyMode()
+        {
+            NativeEnterStandbyMode();
+
+            // force an infinite sleep to allow execution engine to exit this thread and pick the reboot flags set on the call above
+            System.Threading.Thread.Sleep(System.Threading.Timeout.Infinite);
+        }
 
         #region native methods calls
 
@@ -52,7 +68,7 @@ namespace nanoFramework.Hardware.Stm32
         /// Sets the target device to enter STM32 "standby" mode.
         /// </summary>
         [MethodImpl(MethodImplOptions.InternalCall)]
-        public static extern void EnterStandbyMode();
+        private static extern void NativeEnterStandbyMode();
 
         #endregion
 
