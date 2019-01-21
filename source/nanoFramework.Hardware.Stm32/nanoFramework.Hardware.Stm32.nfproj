@@ -45,7 +45,7 @@
     <Name>nanoFramework.Hardware.Stm32</Name>
   </PropertyGroup>
   <ItemGroup>
-    <NFMDP_PE_LoadHints Include="..\packages\nanoFramework.CoreLibrary.1.1.0\lib\mscorlib.dll">
+    <NFMDP_PE_LoadHints Include="..\packages\nanoFramework.CoreLibrary.1.1.1\lib\mscorlib.dll">
       <InProject>false</InProject>
     </NFMDP_PE_LoadHints>
   </ItemGroup>
@@ -64,10 +64,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="mscorlib, Version=1.1.0.4, Culture=neutral, PublicKeyToken=c07d481e9758c731">
-      <HintPath>..\packages\nanoFramework.CoreLibrary.1.1.0\lib\mscorlib.dll</HintPath>
+    <Reference Include="mscorlib, Version=1.1.1.7, Culture=neutral, PublicKeyToken=c07d481e9758c731">
+      <HintPath>..\packages\nanoFramework.CoreLibrary.1.1.1\lib\mscorlib.dll</HintPath>
       <Private>True</Private>
-      <SpecificVersion>True</SpecificVersion>
     </Reference>
   </ItemGroup>
   <Import Project="$(NanoFrameworkProjectSystemPath)NFProjectSystem.CSharp.targets" Condition="Exists('$(NanoFrameworkProjectSystemPath)NFProjectSystem.CSharp.targets')" />
