@@ -6,6 +6,7 @@
 
 **Documentation and other chores:**
 
+- Bumps nanoFramework.CoreLibrary from 1.2.0 to 1.2.1-preview-001 [\#23](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/23)
 - Bumps nanoFramework.CoreLibrary from 1.1.1 to 1.2.0 [\#22](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/22)
 
 ## [v1.0.4](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.4) (2019-01-21)
