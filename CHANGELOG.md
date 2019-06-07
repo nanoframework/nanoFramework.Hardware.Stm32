@@ -1,5 +1,8 @@
 # Change Log
 
+## [v1.0.5-preview-001](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.5-preview-001) (2019-04-23)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.3-preview-020...v1.0.5-preview-001)
+
 ## [v1.0.3-preview-020](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.3-preview-020) (2019-04-23)
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.3-preview-019...v1.0.3-preview-020)
 
