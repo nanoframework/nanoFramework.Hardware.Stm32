@@ -47,6 +47,10 @@ steps:
 # step from template @ nf-tools repo
 # all build, update and publish steps
 - template: azure-pipelines-templates/class-lib-build.yml@templates
+  parameters:
+    sourceFileName: 'nf_hardware_stm32_native.cpp'
+    classLibName: $(nugetPackageName)
+    soundCloudProject: 'nanoframework_lib-nanoFramework.Hardware.Stm32'
 
 # step from template @ nf-tools repo
 # report error
