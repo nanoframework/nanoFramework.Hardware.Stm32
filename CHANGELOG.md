@@ -1,5 +1,13 @@
 # Change Log
 
+## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/HEAD)
+
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.5-preview-001...HEAD)
+
+**Documentation and other chores:**
+
+- Bumps nanoFramework.CoreLibrary from 1.2.1-preview-001 to 1.2.2-preview.20 [\#26](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/26)
+
 ## [v1.0.5-preview-001](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.5-preview-001) (2019-04-23)
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.3-preview-020...v1.0.5-preview-001)
 
