@@ -50,7 +50,7 @@ steps:
   parameters:
     sourceFileName: 'nf_hardware_stm32_native.cpp'
     classLibName: $(nugetPackageName)
-    soundCloudProject: 'nanoframework_lib-nanoFramework.Hardware.Stm32'
+    sonarCloudProject: 'nanoframework_lib-nanoFramework.Hardware.Stm32'
 
 # step from template @ nf-tools repo
 # report error
