@@ -1,8 +1,7 @@
 # Change Log
 
-## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/HEAD)
-
-[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.6-preview.16...HEAD)
+## [v1.0.6-preview.19](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.6-preview.19) (2019-07-18)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.6-preview.16...v1.0.6-preview.19)
 
 **Documentation and other chores:**
 
@@ -75,10 +74,6 @@
 
 - Add WakeupReason [\#18](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/18)
 
-**Fixed bugs:**
-
-- Remove static constructor [\#8](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/8)
-
 ## [v1.0.3-preview-005](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.3-preview-005) (2019-01-02)
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.3-preview-003...v1.0.3-preview-005)
 
@@ -137,6 +132,10 @@
 
 ## [v1.0.2-preview-014](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.2-preview-014) (2018-11-26)
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.2-preview-010...v1.0.2-preview-014)
+
+**Fixed bugs:**
+
+- Remove static constructor [\#8](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/8)
 
 ## [v1.0.2-preview-010](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.2-preview-010) (2018-11-19)
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.2-preview-008...v1.0.2-preview-010)
