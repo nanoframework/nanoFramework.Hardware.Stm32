@@ -3,7 +3,7 @@ trigger:
     include:
     - master
     - develop
-    - release/*
+    - release-/*
     - refs/tags/*
   paths:
     exclude:
@@ -50,6 +50,7 @@ steps:
   parameters:
     sourceFileName: 'nf_hardware_stm32_native.cpp'
     classLibName: $(nugetPackageName)
+    sonarCloudProject: 'nanoframework_lib-nanoFramework.Hardware.Stm32'
 
 # step from template @ nf-tools repo
 # report error
