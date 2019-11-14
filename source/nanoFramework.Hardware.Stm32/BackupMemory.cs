@@ -5,7 +5,6 @@
 
 using System;
 using System.Runtime.CompilerServices;
-using System.Text;
 
 namespace nanoFramework.Hardware.Stm32
 {
@@ -116,7 +115,14 @@ namespace nanoFramework.Hardware.Stm32
             {
                 throw new ArgumentNullException("value");
             }
-            byte[] strBytes = Encoding.UTF8.GetBytes(value);
+
+            // need to get through this so we don't have to reference System.Text
+            byte[] strBytes = new byte[value.Length];
+            for(int i = 0; i < value.Length; i++)
+            {
+                strBytes[i] = (byte)value[i];
+            }
+            
             WriteBytes(position, strBytes);
         }
 
@@ -276,8 +282,7 @@ namespace nanoFramework.Hardware.Stm32
             byte[] readBuffer = new byte[lenght];
             ReadBytes(position, readBuffer);
 
-            Encoding.UTF8.GetDecoder().Convert(readBuffer, 0, (int)lenght, buffer, 0, (int)lenght, false, out Int32 bytesUsed, out Int32 charsUsed, out Boolean completed);
-            var value = new string(buffer, 0, charsUsed);
+            var value = new string(buffer, 0, (int)lenght);
 
             return value;
         }
