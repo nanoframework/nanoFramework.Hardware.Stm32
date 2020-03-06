@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "nanoFramework.Hardware.Stm32", "nanoFramework.Hardware.Stm32\nanoFramework.Hardware.Stm32.nfproj", "{9EFDB37C-4294-4987-A2B7-6226006AEDB3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DDA58EDA-BA28-4DD5-8E4A-8240C3EA68FE}"
+	ProjectSection(SolutionItems) = preProject
+		nanoFramework.Hardware.Stm32.DELIVERABLES.nuspec = nanoFramework.Hardware.Stm32.DELIVERABLES.nuspec
+		nanoFramework.Hardware.Stm32.nuspec = nanoFramework.Hardware.Stm32.nuspec
+		readme.txt = readme.txt
+		version.json = version.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
