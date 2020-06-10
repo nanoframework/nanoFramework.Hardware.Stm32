@@ -1,5 +1,13 @@
 # Changelog
 
+## [v1.4.0](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.4.0) (2020-06-09)
+
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.2.0-preview.16...v1.4.0)
+
+**Documentation and other chores:**
+
+- Release release-v1.4.0 [\#57](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/57)
+
 ## [v1.2.0-preview.16](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.2.0-preview.16) (2020-05-29)
 
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.2.0-preview.15...v1.2.0-preview.16)
