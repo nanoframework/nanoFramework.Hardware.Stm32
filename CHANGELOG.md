@@ -168,7 +168,6 @@
 **Documentation and other chores:**
 
 - Update readme.txt [\#33](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/33)
-- Work on native assembly declaration [\#30](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/30)
 
 ## [v1.0.6-preview.16](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.6-preview.16) (2019-06-23)
 
@@ -177,6 +176,7 @@
 **Documentation and other chores:**
 
 - Bumps nanoFramework.CoreLibrary from 1.2.6-preview.1 to 1.2.6-preview.7 [\#32](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/32)
+- Work on native assembly declaration [\#30](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/30)
 
 ## [v1.0.6-preview.9](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.6-preview.9) (2019-06-20)
 
