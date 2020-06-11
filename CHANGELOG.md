@@ -231,6 +231,7 @@
 **Fixed bugs:**
 
 - Rework EnterStandbyMode\(\) [\#19](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/19)
+- Remove static constructor [\#8](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/8)
 
 **Documentation and other chores:**
 
@@ -307,10 +308,6 @@
 ## [v1.0.2-preview-014](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.2-preview-014) (2018-11-26)
 
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.2-preview-010...v1.0.2-preview-014)
-
-**Fixed bugs:**
-
-- Remove static constructor [\#8](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/8)
 
 ## [v1.0.2-preview-010](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.2-preview-010) (2018-11-19)
 
