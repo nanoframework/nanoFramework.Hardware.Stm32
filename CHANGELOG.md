@@ -1,5 +1,22 @@
 # Changelog
 
+## [v1.7.0-preview.3](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.7.0-preview.3) (2020-06-11)
+
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.6.0...v1.7.0-preview.3)
+
+**Documentation and other chores:**
+
+- Bumps nanoFramework.CoreLibrary from 1.7.3-preview.4 to 1.7.3 [\#60](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/60)
+
+## [v1.6.0](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.6.0) (2020-06-10)
+
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.4.0...v1.6.0)
+
+**Documentation and other chores:**
+
+- Release release-v1.6.0 [\#59](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/59)
+- Release release-v1.5.0 [\#58](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/58)
+
 ## [v1.4.0](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.4.0) (2020-06-09)
 
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.2.0-preview.16...v1.4.0)
@@ -152,6 +169,7 @@
 
 - Bumps nanoFramework.CoreLibrary from 1.2.6-preview.7 to 1.2.6-preview.16 [\#34](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/34)
 - Update readme.txt [\#33](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/33)
+- Work on native assembly declaration [\#30](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/30)
 
 ## [v1.0.6-preview.16](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.6-preview.16) (2019-06-23)
 
@@ -160,7 +178,6 @@
 **Documentation and other chores:**
 
 - Bumps nanoFramework.CoreLibrary from 1.2.6-preview.1 to 1.2.6-preview.7 [\#32](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/32)
-- Work on native assembly declaration [\#30](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/30)
 
 ## [v1.0.6-preview.9](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.6-preview.9) (2019-06-20)
 
