@@ -1,8 +1,8 @@
 # Changelog
 
-## [v1.7.0-preview.3](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.7.0-preview.3) (2020-06-11)
+## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/HEAD)
 
-[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.6.0...v1.7.0-preview.3)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.6.0...HEAD)
 
 **Documentation and other chores:**
 
@@ -167,7 +167,6 @@
 
 **Documentation and other chores:**
 
-- Bumps nanoFramework.CoreLibrary from 1.2.6-preview.7 to 1.2.6-preview.16 [\#34](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/34)
 - Update readme.txt [\#33](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/33)
 
 ## [v1.0.6-preview.16](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.6-preview.16) (2019-06-23)
@@ -193,6 +192,7 @@
 
 **Documentation and other chores:**
 
+- Bumps nanoFramework.CoreLibrary from 1.2.6-preview.7 to 1.2.6-preview.16 [\#34](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/34)
 - Bumps nanoFramework.CoreLibrary from 1.2.4-preview.1 to 1.2.5-preview.1 [\#28](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/28)
 
 ## [v1.0.6-preview.2](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.6-preview.2) (2019-06-12)
