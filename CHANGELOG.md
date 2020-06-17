@@ -1,5 +1,13 @@
 # Changelog
 
+## [v1.7.0](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.7.0) (2020-06-11)
+
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.7.0-preview.3...v1.7.0)
+
+**Documentation and other chores:**
+
+- Release release-v1.7.0 [\#61](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/61)
+
 ## [v1.7.0-preview.3](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.7.0-preview.3) (2020-06-11)
 
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.6.0...v1.7.0-preview.3)
@@ -232,6 +240,10 @@
 
 - Rework EnterStandbyMode\(\) [\#19](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/19)
 
+**Documentation and other chores:**
+
+- Bumps nanoFramework.CoreLibrary from 1.1.0 to 1.1.1 [\#20](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/20)
+
 ## [v1.0.3-preview-007](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.3-preview-007) (2019-01-08)
 
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.3-preview-005...v1.0.3-preview-007)
@@ -274,7 +286,6 @@
 
 **Documentation and other chores:**
 
-- Bumps nanoFramework.CoreLibrary from 1.1.0 to 1.1.1 [\#20](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/20)
 - Bumps nanoFramework.CoreLibrary from 1.0.6-preview-010 to 1.0.6-preview-021 [\#12](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/12)
 
 ## [v1.0.2-preview-021](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.2-preview-021) (2018-11-29)
@@ -288,10 +299,6 @@
 ## [v1.0.2-preview-019](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.2-preview-019) (2018-11-28)
 
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.2-preview-017...v1.0.2-preview-019)
-
-**Fixed bugs:**
-
-- Fix exception on GetAlarm [\#9](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/9)
 
 ## [v1.0.2-preview-017](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.2-preview-017) (2018-11-26)
 
@@ -312,6 +319,10 @@
 ## [v1.0.2-preview-010](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.2-preview-010) (2018-11-19)
 
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.2-preview-008...v1.0.2-preview-010)
+
+**Fixed bugs:**
+
+- Fix exception on GetAlarm [\#9](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/9)
 
 **Documentation and other chores:**
 
