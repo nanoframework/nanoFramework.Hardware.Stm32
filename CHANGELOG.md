@@ -2,7 +2,15 @@
 
 ## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/HEAD)
 
-[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.8.1-preview.2...HEAD)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.8.1-preview.9...HEAD)
+
+**Documentation and other chores:**
+
+- Bumps nanoFramework.CoreLibrary from 1.9.0-preview.5 to 1.9.1-preview.4 [\#66](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/66)
+
+## [v1.8.1-preview.9](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.8.1-preview.9) (2020-10-01)
+
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.8.1-preview.2...v1.8.1-preview.9)
 
 **Documentation and other chores:**
 
@@ -223,6 +231,10 @@
 
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.6-preview.2...v1.0.6-preview.6)
 
+**Implemented enhancements:**
+
+- Add Power class to manage target power mode [\#16](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/16)
+
 **Documentation and other chores:**
 
 - Bumps nanoFramework.CoreLibrary from 1.2.4-preview.1 to 1.2.5-preview.1 [\#28](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/28)
@@ -287,10 +299,6 @@
 ## [v1.0.3-preview-003](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.3-preview-003) (2018-12-21)
 
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/compare/v1.0.2...v1.0.3-preview-003)
-
-**Implemented enhancements:**
-
-- Add Power class to manage target power mode [\#16](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/pull/16)
 
 ## [v1.0.2](https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32/tree/v1.0.2) (2018-12-15)
 
