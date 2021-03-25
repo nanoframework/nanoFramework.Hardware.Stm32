@@ -25,7 +25,7 @@ variables:
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
   nugetPackageName: 'nanoFramework.Hardware.Stm32'
-  repoName: 'lib-nanoFramework.Hardware.Stm32'
+  repoName: 'nanoFramework.Hardware.Stm32'
 
 steps:
 
