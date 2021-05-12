@@ -7,7 +7,6 @@
     <authors>nanoFramework project contributors</authors>
     <owners>nanoFramework project contributors,dotnetfoundation</owners>
     <license type="file">LICENSE.md</license>
-    <releaseNotes>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
     </releaseNotes>
