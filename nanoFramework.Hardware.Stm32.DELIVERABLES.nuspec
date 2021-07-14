@@ -20,7 +20,7 @@
     <tags>
     </tags>
     <dependencies>
-      <dependency id="nanoFramework.CoreLibrary" version="1.10.5-preview.18" />
+      <dependency id="nanoFramework.CoreLibrary" version="1.10.5" />
     </dependencies>
   </metadata>
   <files>
