@@ -1,5 +1,5 @@
 ﻿//
-// Copyright (c) 2018 The nanoFramework project contributors
+// Copyright (c) .NET Foundation and Contributors
 // See LICENSE file in the project root for full license information.
 //
 
@@ -8,24 +8,24 @@ namespace nanoFramework.Hardware.Stm32
     public partial class Power
     {
         /// <summary>
-        /// Wake-up pin enumeration.
+        /// Wakeup reason enumeration.
         /// </summary>
-        public enum WakeupPin
+        public enum WakeupReasonType
         {
             /// <summary>
-            /// Wake-up pin 1.
+            /// Undetermined wakeup reason.
             /// </summary>
-            Pin1 = 1,
+            Undetermined = 0,
 
             /// <summary>
-            /// Wake-up pin 2.
+            /// Wakeup from standby mode.
             /// </summary>
-            Pin2,
+            FromStandby,
 
             /// <summary>
-            /// Wake-up pin 3.
+            /// Wakeup from pin.
             /// </summary>
-            Pin3
+            FromPin
         }
     }
 }

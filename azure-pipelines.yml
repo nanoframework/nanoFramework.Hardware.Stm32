@@ -1,8 +1,8 @@
 trigger:
   branches:
-    include: [master, develop, "release-*" ]
+    include: [main, develop, "release-*" ]
   paths:
-    exclude: ["*.md", .gitignore]
+    exclude: [README.md, LICENSE.md, NuGet.Config, .github_changelog_generator, .gitignore]
   tags:
     include: ["v*"]
 
@@ -17,15 +17,15 @@ resources:
       endpoint: nanoframework
 
 pool:
-  vmImage: 'VS2017-Win2016'
+  vmImage: 'windows-2019'
 
 variables:
   DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
-  solution: '**/source/*.sln'
+  solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
   nugetPackageName: 'nanoFramework.Hardware.Stm32'
-  repoName: 'lib-nanoFramework.Hardware.Stm32'
+  repoName: 'nanoFramework.Hardware.Stm32'
 
 steps:
 
@@ -33,8 +33,6 @@ steps:
 # all build, update and publish steps
 - template: azure-pipelines-templates/class-lib-build.yml@templates
   parameters:
-    sourceFileName: 'nf_hardware_stm32_native.cpp'
-    classLibName: $(nugetPackageName)
     sonarCloudProject: 'nanoframework_lib-nanoFramework.Hardware.Stm32'
 
 # step from template @ nf-tools repo
