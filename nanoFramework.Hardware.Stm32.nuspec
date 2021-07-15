@@ -21,7 +21,7 @@ This package requires a target with nanoFramework.Hardware.Stm32 v$nativeVersion
     <summary>nanoFramework.Hardware.Stm32 assembly for nanoFramework C# projects</summary>
     <tags>nanoFramework C# csharp netmf netnf nanoFramework.Hardware.Stm32</tags>
     <dependencies>
-      <dependency id="nanoFramework.CoreLibrary" version="1.10.5-preview.18" />
+      <dependency id="nanoFramework.CoreLibrary" version="1.10.5" />
     </dependencies>
   </metadata>
   <files>
