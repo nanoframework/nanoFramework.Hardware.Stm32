@@ -5,7 +5,7 @@
     <version>$version$</version>
     <title>nanoFramework.Hardware.Stm32.DELIVERABLES</title>
     <authors>nanoFramework project contributors</authors>
-    <owners>nanoFramework project contributors,dotnetfoundation</owners>
+    <owners>nanoFramework,dotnetfoundation</owners>
     <license type="file">LICENSE.md</license>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
