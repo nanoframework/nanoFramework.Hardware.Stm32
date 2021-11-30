@@ -16,10 +16,11 @@
     <icon>images\nf-logo.png</icon>
     <repository type="git" url="https://github.com/nanoframework/nanoFramework.Hardware.Stm32" commit="$commit$" />
     <copyright>Copyright (c) .NET Foundation and Contributors</copyright>
-    <description>This package includes the nanoFramework.Hardware.Stm32 assembly for nanoFramework C# projects.&#10;This package requires a target with nanoFramework.Hardware.Stm32 v$nativeVersion$ (checksum $checksum$).</description>
+    <description>This package includes the nanoFramework.Hardware.Stm32 assembly for nanoFramework C# projects.
+This package requires a target with nanoFramework.Hardware.Stm32 v$nativeVersion$ (checksum $checksum$).</description>
     <tags>nanoFramework C# csharp netmf netnf nanoFramework.Hardware.Stm32</tags>
     <dependencies>
-      <dependency id="nanoFramework.CoreLibrary" version="1.10.5" />
+      <dependency id="nanoFramework.CoreLibrary" version="1.11.6-preview.2" />
     </dependencies>
   </metadata>
   <files>
