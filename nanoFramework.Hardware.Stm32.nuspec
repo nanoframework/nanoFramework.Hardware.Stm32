@@ -20,7 +20,7 @@
 This package requires a target with nanoFramework.Hardware.Stm32 v$nativeVersion$ (checksum $checksum$).</description>
     <tags>nanoFramework C# csharp netmf netnf nanoFramework.Hardware.Stm32</tags>
     <dependencies>
-      <dependency id="nanoFramework.CoreLibrary" version="1.11.6-preview.2" />
+      <dependency id="nanoFramework.CoreLibrary" version="1.11.7" />
     </dependencies>
   </metadata>
   <files>
