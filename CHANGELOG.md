@@ -2,7 +2,15 @@
 
 ## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/tree/HEAD)
 
-[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/compare/v1.8.3-preview.11...HEAD)
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/compare/v1.8.3-preview.13...HEAD)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#94](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/pull/94)
+
+## [v1.8.3-preview.13](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/tree/v1.8.3-preview.13) (2022-03-17)
+
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/compare/v1.8.3-preview.11...v1.8.3-preview.13)
 
 **Documentation and other chores:**
 
