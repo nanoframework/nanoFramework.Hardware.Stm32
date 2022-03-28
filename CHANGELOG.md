@@ -1,6 +1,56 @@
 # Changelog
 
-[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/compare/v1.8.2-preview.5...HEAD)
+## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/tree/HEAD)
+
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/compare/v1.8.3-preview.13...HEAD)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#94](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/pull/94)
+
+## [v1.8.3-preview.13](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/tree/v1.8.3-preview.13) (2022-03-17)
+
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/compare/v1.8.3-preview.11...v1.8.3-preview.13)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#93](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/pull/93)
+
+## [v1.8.3-preview.11](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/tree/v1.8.3-preview.11) (2022-03-14)
+
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/compare/v1.8.3-preview.8...v1.8.3-preview.11)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#92](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/pull/92)
+
+## [v1.8.3-preview.8](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/tree/v1.8.3-preview.8) (2022-02-17)
+
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/compare/v1.8.3-preview.6...v1.8.3-preview.8)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#91](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/pull/91)
+
+## [v1.8.3-preview.6](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/tree/v1.8.3-preview.6) (2022-01-28)
+
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/compare/v1.8.3-preview.4...v1.8.3-preview.6)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#90](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/pull/90)
+
+## [v1.8.3-preview.4](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/tree/v1.8.3-preview.4) (2022-01-20)
+
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/compare/v1.8.2-preview.7...v1.8.3-preview.4)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#89](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/pull/89)
+
+## [v1.8.2-preview.7](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/tree/v1.8.2-preview.7) (2021-12-02)
+
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/compare/v1.8.2-preview.5...v1.8.2-preview.7)
 
 **Documentation and other chores:**
 
