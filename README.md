@@ -10,8 +10,7 @@
 
 | Component | Build Status | NuGet Package |
 |:-|---|---|
-| nanoFramework.Hardware.Stm32 | [![Build Status](https://dev.azure.com/nanoframework/nanoFramework.Hardware.Stm32/_apis/build/status/nanoframework.lib-nanoFramework.Hardware.Stm32?branchName=develop)](https://dev.azure.com/nanoframework/nanoFramework.Hardware.Stm32/_build/latest?definitionId=6?branchName=main) | [![NuGet](https://img.shields.io/nuget/v/nanoFramework.Hardware.Stm32.svg?label=NuGet&style=flat&logo=nuget)](https://www.nuget.org/packages/nanoFramework.Hardware.Stm32/)  |
-| nanoFramework.Hardware.Stm32 (preview) | [![Build Status](https://dev.azure.com/nanoframework/nanoFramework.Hardware.Stm32/_apis/build/status/nanoframework.lib-nanoFramework.Hardware.Stm32?branchName=develop)](https://dev.azure.com/nanoframework/nanoFramework.Hardware.Stm32/_build/latest?definitionId=6?branchName=develop) |  [![NuGet](https://img.shields.io/nuget/vpre/nanoFramework.Hardware.Stm32.svg?label=NuGet&style=flat&logo=nuget)](https://www.nuget.org/packages/nanoFramework.Hardware.Stm32/) |
+| nanoFramework.Hardware.Stm32 | [![Build Status](https://dev.azure.com/nanoframework/nanoFramework.Hardware.Stm32/_apis/build/status/nanoFramework.Hardware.Stm32?repoName=nanoframework%2FnanoFramework.Hardware.Stm32&branchName=main)](https://dev.azure.com/nanoframework/nanoFramework.Hardware.Stm32/_build/latest?definitionId=6&repoName=nanoframework%2FnanoFramework.Hardware.Stm32&branchName=main) | [![NuGet](https://img.shields.io/nuget/v/nanoFramework.Hardware.Stm32.svg?label=NuGet&style=flat&logo=nuget)](https://www.nuget.org/packages/nanoFramework.Hardware.Stm32/)  |
 
 ## Feedback and documentation
 
