@@ -22,7 +22,7 @@ namespace nanoFramework.Hardware.Stm32
         {
             get
             {
-                if(_size == 0)
+                if (_size == 0)
                 {
                     _size = GetSize();
                 }
@@ -118,11 +118,11 @@ namespace nanoFramework.Hardware.Stm32
 
             // need to get through this so we don't have to reference System.Text
             byte[] strBytes = new byte[value.Length];
-            for(int i = 0; i < value.Length; i++)
+            for (int i = 0; i < value.Length; i++)
             {
                 strBytes[i] = (byte)value[i];
             }
-            
+
             WriteBytes(position, strBytes);
         }
 
@@ -167,7 +167,6 @@ namespace nanoFramework.Hardware.Stm32
         }
 
         #endregion
-
 
         #region read methods
 
@@ -344,7 +343,6 @@ namespace nanoFramework.Hardware.Stm32
         }
 
         #endregion
-
 
         #region native methods calls
 
