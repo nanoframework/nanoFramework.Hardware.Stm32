@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2046
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "nanoFramework.Hardware.Stm32", "nanoFramework.Hardware.Stm32\nanoFramework.Hardware.Stm32.nfproj", "{9EFDB37C-4294-4987-A2B7-6226006AEDB3}"
 EndProject
