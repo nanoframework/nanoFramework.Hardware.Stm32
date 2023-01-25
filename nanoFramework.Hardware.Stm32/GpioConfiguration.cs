@@ -89,12 +89,12 @@ namespace nanoFramework.Hardware.Stm32
             None,
 
             /// <summary>
-            /// Pull-up activation
+            /// Pull-up activation.
             /// </summary>
             PullUp = 1,
 
             /// <summary>
-            /// Pull-down activation
+            /// Pull-down activation.
             /// </summary>
             PullDown = 2,
         }
