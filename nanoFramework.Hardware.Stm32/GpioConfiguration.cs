@@ -11,7 +11,7 @@ namespace nanoFramework.Hardware.Stm32
     public class GpioConfiguration
     {
         private IOMode _mode;
-        private PudActivation _pullUpDown;
+        private PullUpDownActivation _pullUpDown;
         private Speed _speed;
         private byte _alternateFunction;
 
@@ -25,7 +25,7 @@ namespace nanoFramework.Hardware.Stm32
         /// <summary>
         /// State of GPIO pull-up or down.
         /// </summary>
-        public PudActivation PinState { get => _pullUpDown; set => _pullUpDown = value; }
+        public PullUpDownActivation PinState { get => _pullUpDown; set => _pullUpDown = value; }
         
         /// <summary>
         /// GPIO speed selection.
@@ -81,7 +81,7 @@ namespace nanoFramework.Hardware.Stm32
         /// <summary>
         /// Pull-Up or Pull-Down Activation for GPIO.
         /// </summary>
-        public enum PudActivation
+        public enum PullUpDownActivation
         {
             /// <summary>
             /// No Pull-up or Pull-down activation.
