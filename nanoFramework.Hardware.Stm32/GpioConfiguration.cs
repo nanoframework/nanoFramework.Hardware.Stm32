@@ -115,14 +115,14 @@ namespace nanoFramework.Hardware.Stm32
             Medium = 1,
 
             /// <summary>
-            /// Fast speed.
+            /// High speed.
             /// </summary>
-            Fast = 2,
+            High = 2,
 
             /// <summary>
-            /// High speed
+            /// Very high speed.
             /// </summary>
-            High = 3,
+            VeryHigh = 3,
         }
     }
 }
