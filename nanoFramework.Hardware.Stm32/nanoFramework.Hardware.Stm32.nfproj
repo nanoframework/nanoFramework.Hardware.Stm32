@@ -44,6 +44,8 @@
   <Import Project="$(NanoFrameworkProjectSystemPath)NFProjectSystem.props" Condition="Exists('$(NanoFrameworkProjectSystemPath)NFProjectSystem.props')" />
   <ItemGroup>
     <Compile Include="BackupMemory.cs" />
+    <Compile Include="GpioConfiguration.cs" />
+    <Compile Include="Configuration.cs" />
     <Compile Include="Power.WakeupPin.cs" />
     <Compile Include="Power.WakeupReasonType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
