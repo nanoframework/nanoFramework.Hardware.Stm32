@@ -23,7 +23,9 @@ namespace nanoFramework.Hardware.Stm32
         /// There is no validation or check performed on the configuration applied to a GPIO pin. This will override the default configuration for a pin, even if it is already use for other function, for example as a GpioPin output.
         /// </remarks>
         [MethodImpl(MethodImplOptions.InternalCall)]
-        public static extern void ConfigurePin(int pin, GpioConfiguration configuration);
+        public static extern void ConfigurePin(
+            int pin,
+            GpioConfiguration configuration);
 
 #pragma warning restore S4200 // Native methods should be wrapped
 
