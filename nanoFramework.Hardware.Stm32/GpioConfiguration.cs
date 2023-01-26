@@ -65,7 +65,7 @@ namespace nanoFramework.Hardware.Stm32
             /// <summary>
             /// GPIO configured in Analog mode.
             /// </summary>
-            Analog = 0b_0000_0100,
+            Analog = 0b_0000_0011,
 
             /// <summary>
             /// GPIO configured as output in Push Pull mode.
@@ -84,9 +84,9 @@ namespace nanoFramework.Hardware.Stm32
         public enum PullUpDownActivation
         {
             /// <summary>
-            /// No Pull-up or Pull-down activation.
+            /// Floating: no Pull-up or Pull-down activated.
             /// </summary>
-            None,
+            Floating,
 
             /// <summary>
             /// Pull-up activation.
