@@ -53,6 +53,8 @@ steps:
 - template: azure-pipelines-templates/class-lib-build.yml@templates
   parameters:
     sonarCloudProject: 'nanoframework_lib-nanoFramework.Hardware.Stm32'
+    runUnitTests: true
+    unitTestRunsettings: '$(System.DefaultWorkingDirectory)\.runsettings'
 
 # step from template @ nf-tools repo
 # report error
