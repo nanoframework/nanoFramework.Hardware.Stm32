@@ -33,8 +33,9 @@ namespace nanoFramework.Hardware.Stm32
         /// Add definition of an ADC channel.
         /// </summary>
         /// <param name="adc">Index of ADC block.</param>
-        /// <param name="channel">Channel number.</param>
+        /// <param name="adcChannel">Channel number for the ADC block.</param>
         /// <param name="pin">The pin number to connect to ADC channel.</param>
+        /// <returns>The index of the ADC channel that has been created.</returns>
         /// <exception cref="ArgumentException">
         /// <para>
         /// If the ADC block doesn't exist.
@@ -51,23 +52,20 @@ namespace nanoFramework.Hardware.Stm32
         /// No validation is performed on the usage of the GPIO pin. This will override any other pre-existing configuration for it.
         /// </remarks>
         [MethodImpl(MethodImplOptions.InternalCall)]
-        public static extern void AddAdcChannel(
-            int adc,
-            int channel,
-            int pin);
+        public static extern uint AddAdcChannel(
+            uint adc,
+            uint adcChannel,
+            uint pin);
 
         /// <summary>
-        /// Removes an existing ADC channel definition.
+        /// Removes an existing ADC channel definition created with <see cref="AddAdcChannel"/>.
         /// </summary>
-        /// <param name="adc">Index of ADC block.</param>
-        /// <param name="channel">Channel number.</param>
-        /// <exception cref="ArgumentException">If the ADC definition for the combination <paramref name="adc"/> and <paramref name="channel"/> doesn't exist.</exception>
+        /// <param name="channel">Channel number for an ADC definition.</param>
+        /// <exception cref="ArgumentException">If the ADC <paramref name="channel"/> doesn't exist.</exception>
         /// <exception cref="NotSupportedException">If the target doesn't have support for ADC.</exception>
         /// <remarks>Upon return the respective GPIO pin is configured to the default configuration: input, without any other activation.</remarks>
         [MethodImpl(MethodImplOptions.InternalCall)]
-        public static extern void RemoveAdcChannel(
-            int adc,
-            int channel);
+        public static extern void RemoveAdcChannel(uint channel);
 
 #pragma warning restore S4200 // Native methods should be wrapped
 
