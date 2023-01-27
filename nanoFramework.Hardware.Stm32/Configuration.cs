@@ -44,7 +44,7 @@ namespace nanoFramework.Hardware.Stm32
         /// - or -
         /// </para>
         /// <para>
-        /// If the ADC channel is already assigned.
+        /// If the ADC channel doesn't exist.
         /// </para>
         /// </exception>
         /// <exception cref="NotSupportedException">If the target doesn't have support for ADC.</exception>
