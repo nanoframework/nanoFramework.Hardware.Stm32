@@ -46,6 +46,7 @@ namespace nanoFramework.Hardware.Stm32
         /// If the ADC channel is already assigned.
         /// </para>
         /// </exception>
+        /// <exception cref="NotSupportedException">If the target doesn't have support for ADC.</exception>
         /// <remarks>
         /// No validation is performed on the usage of the GPIO pin. This will override any other pre-existing configuration for it.
         /// </remarks>
@@ -61,6 +62,7 @@ namespace nanoFramework.Hardware.Stm32
         /// <param name="adc">Index of ADC block.</param>
         /// <param name="channel">Channel number.</param>
         /// <exception cref="ArgumentException">If the ADC definition for the combination <paramref name="adc"/> and <paramref name="channel"/> doesn't exist.</exception>
+        /// <exception cref="NotSupportedException">If the target doesn't have support for ADC.</exception>
         /// <remarks>Upon return the respective GPIO pin is configured to the default configuration: input, without any other activation.</remarks>
         [MethodImpl(MethodImplOptions.InternalCall)]
         public static extern void RemoveAdcChannel(
