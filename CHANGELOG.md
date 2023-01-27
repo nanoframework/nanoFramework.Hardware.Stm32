@@ -2,7 +2,16 @@
 
 ## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/tree/HEAD)
 
-[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/compare/v1.9.9...HEAD)
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/compare/v1.9.12...HEAD)
+
+**Implemented enhancements:**
+
+- Add methods to add and remove ADC channel definition [\#104](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/pull/104)
+- Add new method `ConfigurePin` [\#103](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/pull/103)
+
+## [v1.9.12](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/tree/v1.9.12) (2022-12-22)
+
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/compare/v1.9.9...v1.9.12)
 
 **Documentation and other chores:**
 
