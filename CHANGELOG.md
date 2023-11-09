@@ -2,7 +2,22 @@
 
 ## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/tree/HEAD)
 
-[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/compare/v1.9.12...HEAD)
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/compare/v1.10.2...HEAD)
+
+**Documentation and other chores:**
+
+- Update 2 NuGet dependencies [\#112](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/pull/112)
+- Update 1 NuGet dependencies [\#111](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/pull/111)
+- Update 1 NuGet dependencies [\#110](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/pull/110)
+- Update 2 NuGet dependencies [\#109](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/pull/109)
+- Update 1 NuGet dependencies [\#108](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/pull/108)
+- Update 1 NuGet dependencies [\#107](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/pull/107)
+- Update 1 NuGet dependencies [\#106](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/pull/106)
+- Update 1 NuGet dependencies [\#105](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/pull/105)
+
+## [v1.10.2](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/tree/v1.10.2) (2023-01-27)
+
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.Stm32/compare/v1.9.12...v1.10.2)
 
 **Implemented enhancements:**
 
