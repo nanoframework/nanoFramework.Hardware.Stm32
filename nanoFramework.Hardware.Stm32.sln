@@ -8,7 +8,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DDA58EDA-BA28-4DD5-8E4A-8240C3EA68FE}"
 	ProjectSection(SolutionItems) = preProject
 		.runsettings = .runsettings
-		nanoFramework.Hardware.Stm32.DELIVERABLES.nuspec = nanoFramework.Hardware.Stm32.DELIVERABLES.nuspec
 		nanoFramework.Hardware.Stm32.nuspec = nanoFramework.Hardware.Stm32.nuspec
 		version.json = version.json
 	EndProjectSection
