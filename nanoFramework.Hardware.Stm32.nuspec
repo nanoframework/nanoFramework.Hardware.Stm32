@@ -20,7 +20,7 @@ This package requires a target with nanoFramework.Hardware.Stm32 v$nativeVersion
     <tags>nanoFramework C# csharp netmf netnf stm32</tags>
     <dependencies>
       <group targetFramework=".NETnanoFramework1.0">
-        <dependency id="nanoFramework.CoreLibrary" version="1.17.11" />
+        <dependency id="nanoFramework.CoreLibrary" version="2.0.0-preview.35" />
       </group>
     </dependencies>
   </metadata>
